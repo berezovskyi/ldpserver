@@ -7,6 +7,6 @@ go:
   - 1.6
   - tip
 
-install: 
+install: true
 
 script: go build ./...
