@@ -9,6 +9,8 @@ go:
 
 install: true
 
+go_import_path: github.com/berezovskyi/ldpserver
+
 script:
   - pwd
   - cd ${TRAVIS_BUILD_DIR}/
