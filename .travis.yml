@@ -1,19 +1,16 @@
 language: go
 
 go:
-  # - 1.3
-  # - 1.4
-  # - 1.5
+  - 1.4
+  - 1.5
   - 1.6
-  # - tip
+  - tip
 
 install: true
 
-# go_import_path: github.com/berezovskyi/ldpserver
 go_import_path: ldpserver
 
 script:
-  - pwd
-  - cd ${TRAVIS_BUILD_DIR}/
-  # - go build ./...
+  # - pwd
+  # - cd ${TRAVIS_BUILD_DIR}/
   - go build -v
