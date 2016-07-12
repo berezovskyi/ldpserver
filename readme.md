@@ -1,4 +1,4 @@
-# LDPSERVER [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?maxAge=2592000)](https://github.com/berezovskyi/ldpserver)
+# LDPSERVER [![CircleCI](https://circleci.com/gh/berezovskyi/ldpserver.svg?style=svg)](https://circleci.com/gh/berezovskyi/ldpserver) [![Build Status](https://travis-ci.org/berezovskyi/ldpserver.svg?branch=master)](https://travis-ci.org/berezovskyi/ldpserver) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/berezovskyi/ldpserver/master/LICENSE)
 
 This is a mini LDP Server in Go.
 
