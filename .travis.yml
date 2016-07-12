@@ -9,7 +9,8 @@ go:
 
 install: true
 
-go_import_path: github.com/berezovskyi/ldpserver
+# go_import_path: github.com/berezovskyi/ldpserver
+go_import_path: ldpserver
 
 script:
   - pwd
