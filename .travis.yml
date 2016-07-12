@@ -12,4 +12,5 @@ install: true
 script:
   - pwd
   - cd ${TRAVIS_BUILD_DIR}/
-  - go build ./...
+  # - go build ./...
+  - go build -v
