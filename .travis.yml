@@ -9,4 +9,7 @@ go:
 
 install: true
 
-script: go build ./...
+script:
+  - pwd
+  - cd ${TRAVIS_BUILD_DIR}/
+  - go build ./...
