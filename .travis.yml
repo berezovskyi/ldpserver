@@ -6,7 +6,7 @@ go:
   - 1.6
   - tip
 
-install: true
+# install: true
 
 go_import_path: ldpserver
 
